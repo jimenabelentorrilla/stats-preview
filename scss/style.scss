@@ -1,0 +1,60 @@
+@import "colores";
+@import "fuentes";
+.container {
+    padding: 25px;
+    margin: 45px 100px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col-lg-6 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.main {
+    border-radius: 10px 0px 0px 10px;
+    height: 100%;
+    padding: 25px;
+    &__heading {
+        &--size {
+            padding: 25px;
+        }
+    }
+    &__paragraph {
+        &--size {
+            padding: 10px 25px;
+            width: 400px;
+        }
+    }
+    &__ul {
+        &--size {
+            width: 400px;
+            padding: 25px;
+        }
+    }
+    &__stats {
+        &--flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        &--size {
+            margin-bottom: 0px;
+        }
+    }
+    &__headingStats {
+        &--flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}
+
+.img__size {
+    border-radius: 0px 10px 10px 0px;
+}

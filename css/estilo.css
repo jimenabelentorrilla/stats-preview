@@ -1,0 +1,88 @@
+/*
+## Colors -variables-
+
+################# Primary*/
+/*(main background)*/
+/*(card background)*/
+/*(accent)*/
+/*################# Neutral*/
+/*(main heading, stats)**/
+/*(main paragraph)**/
+/**(stat headings)*/
+body {
+  background-color: #090b1a; }
+
+.main {
+  background-color: #1b1938; }
+  .main__heading--color {
+    color: white; }
+  .main__heading--accent {
+    color: #aa5cdb; }
+  .main__paragraph--color {
+    color: rgba(255, 255, 255, 0.75); }
+  .main__stats--color {
+    color: white; }
+  .main__headingStats--color {
+    color: rgba(255, 255, 255, 0.6); }
+
+/*##### Fonts -variables-*****/
+.main__heading--font {
+  font-size: 36px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700; }
+
+.main__paragraph--font {
+  line-height: 25px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400; }
+
+.main__stats--font {
+  font-weight: 700;
+  font-size: 22px;
+  font-family: "Inter", sans-serif; }
+
+.main__headingStats--font {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "Lexend Deca", sans-serif; }
+
+.container {
+  padding: 25px;
+  margin: 45px 100px; }
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.col-lg-6 {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.main {
+  border-radius: 10px 0px 0px 10px;
+  height: 100%;
+  padding: 25px; }
+  .main__heading--size {
+    padding: 25px; }
+  .main__paragraph--size {
+    padding: 10px 25px;
+    width: 400px; }
+  .main__ul--size {
+    width: 400px;
+    padding: 25px; }
+  .main__stats--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .main__stats--size {
+    margin-bottom: 0px; }
+  .main__headingStats--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+
+.img__size {
+  border-radius: 0px 10px 10px 0px; }

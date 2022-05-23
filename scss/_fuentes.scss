@@ -1,0 +1,50 @@
+/*##### Fonts -variables-*****/
+
+$inter:'Inter',
+sans-serif;
+$regular:400;
+$bold:700;
+$lexend:'Lexend Deca',
+sans-serif;
+$bodyCopy:15px;
+.main {
+    &__heading {
+        &--font {
+            font: {
+                size: 36px;
+                family: $inter;
+                weight: $bold;
+            }
+        }
+    }
+    &__paragraph {
+        &--font {
+            line-height: 25px;
+            font: {
+                size: $bodyCopy;
+                family: $inter;
+                weight: 400;
+            }
+        }
+    }
+    &__stats {
+        &--font {
+            font: {
+                weight: $bold;
+                size: 22px;
+                family: $inter;
+            }
+        }
+    }
+    &__headingStats {
+        &--font {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font: {
+                weight: $regular;
+                size: 12px;
+                family: $lexend;
+            }
+        }
+    }
+}
